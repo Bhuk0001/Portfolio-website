@@ -1,0 +1,14 @@
+.hov:hover {
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  transform: scale(1.03) !important;
+  z-index: 1;
+}
+
+.hov-change:hover {
+  border: 1px solid currentcolor;
+  border-radius: 0.5rem;
+  color: rgb(3, 100, 226) !important;
+}
